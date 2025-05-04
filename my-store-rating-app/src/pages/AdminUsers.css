@@ -1,0 +1,46 @@
+/* AdminUsers.css */
+.admin-users {
+    max-width: 1000px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  
+  .admin-users h2 {
+    text-align: center;
+    font-size: 2.4rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .no-users {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #777;
+  }
+  
+  .user-table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .user-table th,
+  .user-table td {
+    padding: 14px 18px;
+    border-bottom: 1px solid #eee;
+    text-align: left;
+  }
+  
+  .user-table th {
+    background-color: #f7f9fb;
+    font-weight: bold;
+    color: #555;
+  }
+  
+  .user-table tr:hover {
+    background-color: #f1f5f9;
+  }
+  

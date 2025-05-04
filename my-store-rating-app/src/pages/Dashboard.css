@@ -1,0 +1,58 @@
+/* Dashboard.css */
+.dashboard-container {
+    padding: 60px 20px;
+    background-color: #f5f8fa;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .dashboard-card {
+    background: #ffffff;
+    padding: 40px;
+    max-width: 600px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+    text-align: center;
+  }
+  
+  .dashboard-card h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #333;
+  }
+  
+  .dashboard-card p {
+    font-size: 1.1rem;
+    color: #555;
+    margin-bottom: 20px;
+  }
+  
+  .dashboard-role {
+    font-size: 1.1rem;
+    margin-bottom: 25px;
+    color: #444;
+  }
+  
+  .dashboard-links {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .dashboard-button {
+    padding: 12px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    background-color: #007bff;
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .dashboard-button:hover {
+    background-color: #0056b3;
+  }
+  

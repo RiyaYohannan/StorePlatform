@@ -1,0 +1,36 @@
+/* StoreList.css */
+.storelist-container {
+    max-width: 1200px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  
+  .storelist-container h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 30px;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+  }
+  
+  .store-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+  }
+  
+  .no-results {
+    text-align: center;
+    color: #777;
+    font-size: 1.2rem;
+  }
+  
